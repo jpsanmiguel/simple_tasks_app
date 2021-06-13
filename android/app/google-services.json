@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006326827573",
+    "project_id": "simpletasksapp-sanmi",
+    "storage_bucket": "simpletasksapp-sanmi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006326827573:android:8273525b7a98468c6d3f7c",
+        "android_client_info": {
+          "package_name": "sanmi.apps.simple_tasks_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006326827573-0vnv23njp7k80abkalf5pos9kdctogbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjiAFC0pVOXd01FYSTkfdJNXVrChMPs_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006326827573-0vnv23njp7k80abkalf5pos9kdctogbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
