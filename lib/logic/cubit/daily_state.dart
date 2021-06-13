@@ -4,7 +4,7 @@ class DailyState {
   final String name;
   final String description;
   final int priority;
-  final DateTime? deadline;
+  final DateTime deadline;
 
   DailyState({
     this.name = '"',
