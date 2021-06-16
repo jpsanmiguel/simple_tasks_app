@@ -12,7 +12,7 @@ class Task {
   int priority;
   List<Comment> comments;
 
-  Task({this.name, this.description, this.type, this.dedicatedHours, this.priority, this.comments});
+  Task({this.name, this.description, this.type, this.dedicationHours, this.dedicatedHours, this.priority, this.comments});
 
   Task.fromJson(Map<String, dynamic> json) {
     comments = <Comment>[];
