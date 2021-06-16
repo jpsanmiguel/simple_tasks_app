@@ -3,3 +3,10 @@ enum TaskType {
   Weekly,
   Monthly,
 }
+
+enum LoadingStatus {
+  None,
+  Loading,
+  Success,
+  Error,
+}

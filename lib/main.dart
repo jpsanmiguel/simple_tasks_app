@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:simple_tasks_app/logic/bloc/tasks_bloc.dart';
 import 'package:simple_tasks_app/logic/cubit/session/session_cubit.dart';
 import 'package:simple_tasks_app/view/navigation/app_navigator.dart';
 import 'package:simple_tasks_app/view/screens/splash_page.dart';
@@ -44,6 +45,9 @@ class MyApp extends StatelessWidget {
             create: (context) => AuthSessionCubit(
               authRepository: context.read<AuthRepository>(),
             ),
+          ),
+          BlocProvider(
+            create: (context) => TasksBloc(),
           )
         ],
         child: FutureBuilder(
